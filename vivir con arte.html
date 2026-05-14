@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Propuesta Bienestar Adultos Mayores | Vivir con Arte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f2efe9;
+      font-family: 'Inter', sans-serif;
+      color: #1e2a25;
+      line-height: 1.5;
+      scroll-behavior: smooth;
+    }
+
+    /* contenedor principal estilo página blanca minimalista */
+    .container {
+      max-width: 1280px;
+      margin: 2rem auto;
+      background: #ffffff;
+      border-radius: 2rem;
+      box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    /* secciones */
+    .section {
+      padding: 3.5rem 3rem;
+      border-bottom: 1px solid #e8e2d8;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    @media (max-width: 780px) {
+      .section {
+        padding: 2.5rem 1.5rem;
+      }
+      .container {
+        margin: 1rem;
+        border-radius: 1.5rem;
+      }
+    }
+
+    /* tipografía */
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      color: #1c3b2f;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: #2b5744;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #c7b28b;
+      padding-left: 1rem;
+    }
+
+    h3 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #3f6b58;
+      margin-bottom: 0.75rem;
+    }
+
+    .subtitulo {
+      font-size: 1.2rem;
+      color: #5f6c65;
+      margin-bottom: 2rem;
+      max-width: 85%;
+      font-weight: 400;
+    }
+
+    /* grids y tarjetas */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .card {
+      background: #fefcf9;
+      padding: 1.5rem;
+      border-radius: 1.2rem;
+      border: 1px solid #ece2d6;
+      transition: all 0.2s ease;
+    }
+
+    .card p {
+      color: #3e4d45;
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+
+    .beneficio {
+      background: #f8f6f2;
+      padding: 1.4rem;
+      border-radius: 1.2rem;
+      border-left: 3px solid #cbbf9b;
+    }
+
+    .beneficio h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #3a5a4b;
+      margin-bottom: 0.4rem;
+    }
+
+    .contacto-final {
+      background: #f1ede6;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .contacto-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .persona {
+      background: white;
+      padding: 1.2rem 1.8rem;
+      border-radius: 1.8rem;
+      min-width: 240px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .persona p {
+      margin: 0.3rem 0;
+    }
+
+    hr {
+      margin: 2rem 0 1rem;
+      border: none;
+      height: 1px;
+      background: #ddd3c6;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e7dfd3;
+      color: #4e6b5c;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.2rem 0.9rem;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+      letter-spacing: 0.3px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #9b978e;
+      padding: 1.5rem;
+      background: #ffffff;
+      border-top: 1px solid #ebe5db;
+    }
+
+    @media (max-width: 650px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.6rem; }
+      .subtitulo { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  
+  <!-- PORTADA SENCILLA SIN FOTOS -->
+  <div class="section" style="padding-bottom: 2rem;">
+    <div class="tag">✦ PROYECTO CULTURAL Y DE BIENESTAR INTEGRAL</div>
+    <h1>Vivir con Arte<br>Programa para Adultos Mayores</h1>
+    <div class="subtitulo">
+      Talleres semanales de estimulación creativa, arteterapia, psicomotricidad y encuentro social.
+      Una propuesta diseñada para promover el bienestar emocional, la autonomía y la participación activa.
+    </div>
+    <div style="margin-top: 1.2rem; color:#5f6b61;">
+      📍 Escazú · San José, Costa Rica
+    </div>
+  </div>
+
+  <!-- PRESENTACIÓN (ampliada y mejorada) -->
+  <div class="section">
+    <h2>Sentido y propósito</h2>
+    <p style="font-size: 1.05rem; margin-bottom: 1rem; max-width: 92%;">
+      La propuesta <strong>“Vivir con Arte”</strong> responde a la necesidad de generar espacios sensibles, inclusivos y estimulantes 
+      para personas adultas mayores. Creemos que el arte, el movimiento y la convivencia fortalecen la autoestima, la 
+      agilidad cognitiva y la red de apoyo emocional. Cada taller está diseñado desde la escucha activa, adaptándose 
+      a distintos niveles de movilidad y trayectorias de vida.
+    </p>
+    <p style="font-size: 1.05rem;">
+      Nuestro objetivo es contribuir a una vejez activa, alegre y con sentido, reduciendo el aislamiento y potenciando 
+      recursos personales mediante dinámicas artísticas participativas. El programa se desarrolla en encuentros semanales 
+      de 1 hora 45 minutos, con metodología progresiva y evaluación continua del bienestar grupal.
+    </p>
+  </div>
+
+  <!-- OBJETIVOS + ÁREAS DE TRABAJO (detallado) -->
+  <div class="section">
+    <h2>Objetivos del programa</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>🎯 General</h3>
+        <p>Mejorar la calidad de vida de las personas adultas mayores mediante talleres artísticos, recreativos y de estimulación integral, promoviendo autonomía, creatividad y encuentro social.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Específicos</h3>
+        <p>✓ Estimular memoria, atención y lenguaje.<br>
+        ✓ Desarrollar habilidades psicomotoras finas y gruesas.<br>
+        ✓ Reducir la soledad y fortalecer redes de apoyo.<br>
+        ✓ Ofrecer canales de expresión emocional a través del arte.<br>
+        ✓ Generar rutinas de bienestar con enfoque lúdico y participativo.</p>
+      </div>
+      <div class="card">
+        <h3>🌱 Metas de impacto</h3>
+        <p>Alcanzar un mínimo de 15 participantes por ciclo, lograr una asistencia superior al 80% y documentar mejoras en la percepción de bienestar mediante encuestas cualitativas.</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 2rem;">Áreas de trabajo y contenidos</h2>
+    <div class="grid-3">
+      <div class="card"><h3>🎨 Arteterapia</h3><p>Pintura acrílica, collage expresivo, dibujo creativo. Se trabaja la autopercepción, recuerdos placenteros y reducción del estrés.</p></div>
+      <div class="card"><h3>🧘 Estimulación psicomotora</h3><p>Movilidad articular, coordinación brazos-manos, ritmo corporal y elongación adaptada (con sillas o bastones).</p></div>
+      <div class="card"><h3>🎵 Música y memoria</h3><p>Canciones tradicionales, juegos rítmicos, percusión corporal. Favorece la evocación de recuerdos y la conexión grupal.</p></div>
+      <div class="card"><h3>📖 Narrativa y teatro</h3><p>Improvisación ligera, lectura de cuentos, creación de microhistorias. Estimula la imaginación y la oralidad.</p></div>
+      <div class="card"><h3>✂️ Manualidades sensoriales</h3><p>Origami, tejido básico, reciclaje creativo, trabajo con texturas. Desarrolla motricidad fina y concentración.</p></div>
+      <div class="card"><h3>🤝 Integración social</h3><p>Dinámicas cooperativas, juegos de memoria en equipo, celebraciones temáticas. Refuerza la pertenencia y el disfrute colectivo.</p></div>
+    </div>
+  </div>
+
+  <!-- METODOLOGÍA DETALLADA (sin fotos) -->
+  <div class="section">
+    <h2>Metodología activa y participativa</h2>
+    <p style="margin-bottom: 1rem;">Cada sesión tiene una duración de <strong>1 hora 45 minutos</strong> y se estructura en tres momentos:</p>
+    <div class="grid-3" style="margin-top: 0.5rem;">
+      <div class="card"><h3>🌟 Apertura cálida (15')</h3><p>Bienvenida, dinámica de activación emocional y respiratoria, revisión del estado de ánimo grupal.</p></div>
+      <div class="card"><h3>🎭 Núcleo creativo (65')</h3><p>Taller principal: arteterapia, movimiento, música o manualidades, según la planificación semanal. Trabajo individual y grupal.</p></div>
+      <div class="card"><h3>☕ Cierre reflexivo (20')</h3><p>Ronda de palabras, relajación guiada, café compartido e integración. Se fomenta la escucha y el reconocimiento mutuo.</p></div>
+    </div>
+    <div style="background: #f6f2ec; border-radius: 1.2rem; padding: 1.2rem; margin-top: 1.5rem;">
+      <p><strong>📅 Frecuencia:</strong> 1 encuentro semanal · Ciclos de 10 a 12 sesiones · Grupo sugerido: 12 a 22 participantes.<br>
+      <strong>🧰 Recursos:</strong> materiales artísticos incluidos, acompañamiento profesional y adaptaciones para diversidad funcional.</p>
+    </div>
+  </div>
+
+  <!-- BENEFICIOS (ampliados, textuales) -->
+  <div class="section">
+    <h2>Beneficios del programa</h2>
+    <div class="grid-3">
+      <div class="beneficio"><h4>🌸 Bienestar emocional</h4><p>Reducción del estrés, la ansiedad y la soledad; se potencia la autoestima a través del descubrimiento creativo.</p></div>
+      <div class="beneficio"><h4>✨ Estimulación cognitiva</h4><p>Ejercicios lúdicos de memoria, atención y funciones ejecutivas que ayudan a mantener la agilidad mental.</p></div>
+      <div class="beneficio"><h4>🕊️ Movimiento saludable</h4><p>Rutinas suaves que mejoran la flexibilidad, el equilibrio y la coordinación, reduciendo el riesgo de caídas.</p></div>
+      <div class="beneficio"><h4>🎭 Expresión y creatividad</h4><p>El arte como vehículo para procesar emociones, generar nuevas experiencias placenteras y fortalecer la identidad.</p></div>
+      <div class="beneficio"><h4>🤲 Vínculos significativos</h4><p>Construcción de una red de apoyo, amistad y pertenencia dentro del grupo.</p></div>
+      <div class="beneficio"><h4>🌿 Participación activa</h4><p>Las personas mayores son protagonistas, toman decisiones artísticas y aportan su saber y su historia.</p></div>
+    </div>
+  </div>
+
+  <!-- CRONOGRAMA / IMPLEMENTACIÓN (mejora de info) -->
+  <div class="section">
+    <h2>Plan de implementación sugerido</h2>
+    <p>Propuesta de ciclo piloto de <strong>12 semanas</strong> con evaluación continua. A lo largo del programa se realizarán dos muestras abiertas (exposición de obras y pequeña presentación), fortaleciendo la visibilidad y el orgullo del grupo.</p>
+    <div class="grid-3" style="margin-top: 1.5rem;">
+      <div class="card"><h3>📆 Semanas 1-3</h3><p>Exploración sensorial y confianza: collage emocional, músicas compartidas, dinámicas de memoria visual.</p></div>
+      <div class="card"><h3>🎨 Semanas 4-7</h3><p>Desarrollo plástico y corporal: pintura sobre bastidor, ejercicios de coordinación, teatro lúdico.</p></div>
+      <div class="card"><h3>🌟 Semanas 8-12</h3><p>Proyecto colaborativo (mural o instalación), remembranzas, exposición final con familias.</p></div>
+    </div>
+    <div style="margin-top: 1.5rem; font-style: italic; color: #5f6c62; font-size: 0.9rem;">
+      * Los contenidos se ajustan a centros diurnos, residencias o grupos comunitarios. Se incluyen sesiones de bajo impacto para movilidad reducida.
+    </div>
+  </div>
+
+  <!-- EQUIPO RESPONSABLE + CONTACTO FINAL (tal como solicitaste) -->
+  <div class="section" style="background: #fefbf7;">
+    <h2>Equipo facilitador</h2>
+    <p style="margin-bottom: 1.5rem;">Profesionales con trayectoria en arte educación, teatro social y acompañamiento comunitario a personas adultas mayores. Diseñamos cada taller con sensibilidad, rigor técnico y calidez.</p>
+    
+    <!-- DATOS DE CONTACTO EXCLUSIVAMENTE AL FINAL -->
+    <div class="contacto-final">
+      <h3 style="color: #4d6b5c; margin-bottom: 1rem;">📬 Información de contacto</h3>
+      <div class="contacto-flex">
+        <div class="persona">
+          <p><strong>Alex Marzzo</strong></p>
+          <p>Arte educador · Especialista en proyectos culturales</p>
+          <p>📞 8924-4058</p>
+          <p>✉️ alexmarzo@gmail.com</p>
+        </div>
+        <div class="persona">
+          <p><strong>Fernando Franco</strong></p>
+          <p>Director de teatro · Experto en proyectos sociales</p>
+          <p>📞 8869-7028</p>
+          <p>✉️ francocuentos@gmail.com</p>
+        </div>
+      </div>
+      <hr>
+      <p style="font-size: 0.9rem;">Disponibilidad para reuniones de coordinación, visita previa y adaptación del programa a las necesidades específicas de la institución o comunidad.</p>
+      <p style="margin-top: 1rem; font-weight: 500;">Gracias por considerar esta propuesta de bienestar integral y acompañamiento cultural para personas adultas mayores.</p>
+    </div>
+  </div>
+
+  <footer>
+    Vivir con Arte · Escazú, San José · Propuesta 2025 · Entornos creativos para una vejez plena
+  </footer>
+</div>
+</body>
+</html>
